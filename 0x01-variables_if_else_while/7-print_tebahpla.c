@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: Check for number if it is positive or negative
+ * Description: program that prints all the numbers of base 1i6
  * return: always 0
  */
 int main(void)
