@@ -1,2 +1,3 @@
-i#/bin/bash
-0x00. C - Hello, World
+What is debugging
+What are some methods of debugging manually
+How to read the error messages
