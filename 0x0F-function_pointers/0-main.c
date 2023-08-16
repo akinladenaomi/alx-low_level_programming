@@ -15,7 +15,7 @@ void print_name_as_is(char *name)
 * Return: Nothing.
 */
 void print_name_uppercase(char *name)
-		{
+{
 		unsigned int i;
 
 		printf("Hello, my uppercase name is ");
@@ -32,7 +32,7 @@ void print_name_uppercase(char *name)
 		}
 		i++;
 		}
-
+}
 /**
 * main - check the code
 *
