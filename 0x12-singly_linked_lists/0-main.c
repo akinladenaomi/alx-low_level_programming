@@ -2,7 +2,6 @@
 #include <string.h>
 #include <stdio.h>
 #include "lists.h"
-
 /**
  * main - check the code
  *
@@ -18,10 +17,10 @@ int main(void)
 		head = &hello;
 		new = malloc(sizeof(list_t));
 		if (new == NULL)
-		{
+	{
 		printf("Error\n");
 		return (1);
-		}
+	}
 		new->str = strdup("Hello");
 		new->len = 5;
 		new->next = head;
