@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 /**
  * add_nodeint_end - adds a node at the end of the linked list
  * @head: pointer to the first element in the list
@@ -6,11 +6,9 @@
  *
  * Return: pointer to the new node, or NULL if it fails
  */
-listint_t *add_nodeint_end(listint_t **head, const int n)
+listint_t *add_nodeint(listint_t **head, const int n)
 {
 	listint_t *new;
-
-	list_t *temp = *head;
 
 	new = malloc(sizeof(listint_t));
 	if (!new)
@@ -19,6 +17,6 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	new->n = n;
 	new->next = *head;
 	*head = new;
-	return
-		(new);
+	
+	return (new);
 }
